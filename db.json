@@ -1,0 +1,43 @@
+{
+  "clients": [
+    {
+      "id": "nkn4ZBhLApBRhvEcYGYxi",
+      "name": "VeryImportantClient"
+    },
+    {
+      "id": "sqKCG8q-QJ1kJesCTQJY3",
+      "name": "ImportantClient"
+    },
+    {
+      "id": "eyn4ZBhZgIBRhvEcYGYyj",
+      "name": "Client"
+    }
+  ],
+  "users": [
+    {
+      "id": "hBLktVIc4v2DxRJvi2Rau",
+      "client": {
+        "id": "eyn4ZBhZgIBRhvEcYGYyj",
+        "name": "Client"
+      },
+      "dateOfBirth": "1993-02-01T05:00:00.000Z",
+      "email": "John.doe@gmail.com",
+      "firstname": "John",
+      "surname": "Doe",
+      "hasCreditLimit": true,
+      "creditLimit": 10000
+    },
+    {
+      "id": "jW6IbhxY3xT8z57xmzzUC",
+      "client": {
+        "id": "nkn4ZBhLApBRhvEcYGYxi",
+        "name": "VeryImportantClient"
+      },
+      "dateOfBirth": "1993-02-01T05:00:00.000Z",
+      "email": "Jane.doe@gmail.com",
+      "firstname": "Jane",
+      "surname": "Doe",
+      "hasCreditLimit": false
+    }
+  ]
+}
